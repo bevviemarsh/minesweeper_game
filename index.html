@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Iceland&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <button id="reset" class="main-container__button">New Game</button>
+      <div id="grid" class="main-container__grid"></div>
+      <div class="main-container__flags-output">
+        Flags left:
+        <span
+          id="flags-left"
+          class="main-container__flags-output--flags-lft"
+        ></span>
+      </div>
+      <div id="result" class="main-container__rslt"></div>
+    </div>
+  </body>
+</html>
